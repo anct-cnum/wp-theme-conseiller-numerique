@@ -1,0 +1,22 @@
+{
+  "name": "anct-cnum/wp-theme-conseiller-numerique",
+  "authors": [
+    {
+      "name": "Sébastien Quirrion",
+      "email": "sebastien.quirrion@ubalia.fr"
+    }
+  ],
+  "description": "Use of dsfr for conseiller-numerique within WordPress",
+  "type": "wordpress-theme",
+  "require": {
+    "composer/installers": "^1.7"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.6",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "wp-coding-standards/wpcs": "^2.3"
+  },
+  "scripts": {
+    "lint": "phpcs ../conseiller-numerique/ --extensions=php --ignore=*/vendor/,*/node_modules/ --exclude=Generic.Files.LineLength"
+  }
+}

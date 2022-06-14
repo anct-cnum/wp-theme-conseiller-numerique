@@ -1,0 +1,22 @@
+{
+	"name": "wp-theme-conseiller-numerique",
+	"version": "0.1",
+	"description": "Wordpress theme with DSFR for conseiller numerique",
+	"author": "Sébastien Quirrion <sebastien.quirrion@ubalia.fr>",
+	"scripts": {
+		"lint:css": "stylelint **/*style.css",
+		"lint-fix:css": "stylelint **/*.css --fix",
+		"lint": "eslint --config .eslintrc.json"
+	},
+	"devDependencies": {
+		"@wordpress/browserslist-config": "^4.1.2",
+		"@wordpress/eslint-plugin": "^12.4.0",
+		"@wordpress/stylelint-config": "^20.0.2",
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.17.0",
+		"stylelint": "^14.9.0"
+	},
+	"browserslist": [
+		"extends @wordpress/browserslist-config"
+	]
+}

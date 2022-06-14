@@ -1,0 +1,182 @@
+/*
+  Theme Name: conseiller-numerique
+  Description: custom style
+  Version: 1.0
+*/
+.logo-france-relance {
+  height: 80px;
+  width: 80px;
+}
+
+.footer-content-custom {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.footer-list-custom {
+  display: block;
+  column-count: 1;
+}
+
+.footer-list-custom li:first-child {
+  margin-top: 0;
+}
+
+.post-card-first {
+  display: flex;
+  background-image: none;
+}
+
+.post-card:hover,
+.post-card-first:hover {
+  opacity: 0.5;
+}
+
+.next-post {
+  border: 1px solid #e5e5e5;
+  height: 600px;
+}
+
+@media (max-width: 992px) {
+
+  .fr-footer__brand { /* stylelint-disable-line */
+    flex-basis: 40%;
+  }
+
+  .footer-content-custom {
+    flex-basis: 60%;
+  }
+
+  .footer-list-custom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-card-first {
+    display: block;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .next-post {
+    height: 100%;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 580px) {
+
+  .fr-footer__brand { /* stylelint-disable-line */
+    flex-basis: 100%;
+  }
+
+}
+
+/* WordPress Core
+-------------------------------------------------------------- */
+.aligncenter,
+div.aligncenter {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.alignleft {
+  float: left !important;
+}
+
+.alignright {
+  float: right !important;
+}
+
+/* Help part
+-------------------------------------------------------------- */
+.help-part {
+  display: flex;
+  flex-grow: 1;
+  background: linear-gradient(to bottom, #000091 50%, #0063cb 100%);
+}
+
+.help-part .first-part,
+.help-part .second-part {
+  display: flex;
+  flex: 1;
+  height: 256px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.help-part .first-part {
+  justify-content: flex-end;
+  border-right: 1px solid #518fff;
+}
+
+.help-part .second-part {
+  justify-content: flex-start;
+}
+
+.help-part .content-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 38rem;
+  padding: 50px 10px;
+}
+
+.help-part .custom-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  display: inline-table;
+  margin-bottom: 10px;
+}
+
+.help-part .custom-btn:hover {
+  background-color: transparent;
+}
+
+.help-part .image-carto {
+  width: 30%;
+}
+
+@media (max-width: 968px) {
+
+  .help-part .first-part,
+  .help-part .second-part {
+    height: 350px;
+  }
+
+  .help-part .content-part {
+    padding-top: 75px;
+  }
+
+  .help-part .image-carto {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .help-part .first-part,
+  .help-part .second-part {
+    height: 400px;
+  }
+
+  .help-part .content-part {
+    padding-top: 20px;
+  }
+
+}
+
+@media (max-width: 338px) {
+
+  .help-part .first-part,
+  .help-part .second-part {
+    height: 600px;
+  }
+
+}

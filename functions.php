@@ -81,7 +81,7 @@ function getPostsFiltered($request, $my_posts)
  */
 function getDurationFirstVideo($postId)
 {
-    $post = get_post($post_id);
+    $post = get_post($postId);
     $content = do_shortcode(apply_filters('the_content', $post->post_content));
     $embeds = get_media_embedded_in_content($content);
 
@@ -89,16 +89,37 @@ function getDurationFirstVideo($postId)
         foreach ($embeds as $embed) {
             //Prend la durée de le première vidéo embed trouvée
             if (strpos($embed, 'video')) {
-                $urlFirstVideo = substr($embed, strpos($embed, "wp-content"));
+                $urlFirstVideo = substr($embed, strpos($embed, "http"));
                 $urlFirstVideo = substr($urlFirstVideo, 0, strpos($urlFirstVideo, "\""));
-                include_once ABSPATH . 'wp-admin/includes/media.php';
-                return ' - lecture : ' . human_readable_duration(gmdate('i:s', wp_read_video_metadata($urlFirstVideo)['length']));
+
+                $attachments = get_posts(
+                    array(
+                        'post_type' => 'attachment',
+                        'post_guid' => $urlFirstVideo,
+                        'posts_per_page' => -1,
+                        'post_parent' => [$postId, 0], //0 au cas où le fichier a été uploadé en dehors de l'article
+                        'exclude'     => get_post_thumbnail_id()
+                        )
+                );
+
+                if (!empty($attachments)) {
+                    $attachments = array_filter($attachments, function ($attachment) use ($urlFirstVideo) {
+                        return $attachment->guid === $urlFirstVideo;
+                    });
+                    foreach ($attachments as $attachment) {
+                        //Prend la durée de le première vidéo embed trouvée
+                        if (str_contains($attachment->post_mime_type, 'video')) {
+                            $metadata = wp_get_attachment_metadata($attachment->ID);
+                            include_once ABSPATH . 'wp-admin/includes/media.php';
+                            return ' - lecture : ' . human_readable_duration(gmdate('i:s', $metadata['length']));
+                        }
+                    }
+                }
             }
         }
-    } else {
-        //pas de vidéo "embed" trouvée
-        return '';
     }
+    //pas de vidéo "embed" trouvée
+    return '';
 }
 
 /**

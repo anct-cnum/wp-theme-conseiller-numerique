@@ -26,7 +26,7 @@
       </div>
       <div class="fr-mr-5w fr-mt-5w">
         Le <?php the_time('d/m/Y'); ?>
-        <?php echo getDurationFirstVideo($post_id); ?>
+        <?php echo getDurationFirstVideo($post->ID); ?>
       </div>
     </div>
     <div class="fr-col-xs-12 fr-col-md-6">

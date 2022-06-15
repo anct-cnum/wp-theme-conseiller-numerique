@@ -1,7 +1,7 @@
 /*
   Theme Name: conseiller-numerique
   Description: custom style
-  Version: 1.0
+  Version: 0.1
 */
 .logo-france-relance {
   height: 80px;
@@ -29,7 +29,7 @@
 
 .post-card:hover,
 .post-card-first:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .next-post {
@@ -98,6 +98,7 @@ div.aligncenter {
   display: flex;
   flex-grow: 1;
   background: linear-gradient(to bottom, #000091 50%, #0063cb 100%);
+  padding: 15px 0;
 }
 
 .help-part .first-part,

@@ -76,7 +76,7 @@ if ($pages !== null) { ?>
                         $hrefLast = $wp->request === "" ? '' : 'href="/' . $wp->request . '/page/' . $lastPage . '"';
                     }
                 } else {
-                    $lastPage =  !str_contains($pages[0], 'Précédent') ? array_key_last($pages) + 1 : (int)array_key_last($pages) - 1;
+                    $lastPage =  !str_contains($pages[0], 'Précédent') ? array_key_last($pages) : (int)array_key_last($pages) - 1;
                     $hrefLast = 'href="/page/' . $lastPage . '"';
                 }
             } ?>

@@ -66,6 +66,8 @@ function getPostsFiltered($request, $my_posts)
         //flag du premier post de la première page pour son affichage différent
         if (get_query_var('paged') === 0) {
             $my_posts[0]->first = true;
+        } else {
+            $my_posts[0]->anchor = true;
         }
 
         return $my_posts;
@@ -103,9 +105,11 @@ function getDurationFirstVideo($postId)
                 );
 
                 if (!empty($attachments)) {
-                    $attachments = array_filter($attachments, function ($attachment) use ($urlFirstVideo) {
-                        return $attachment->guid === $urlFirstVideo;
-                    });
+                    $attachments = array_filter(
+                        $attachments, function ($attachment) use ($urlFirstVideo) {
+                            return $attachment->guid === $urlFirstVideo;
+                        }
+                    );
                     foreach ($attachments as $attachment) {
                         //Prend la durée de le première vidéo embed trouvée
                         if (str_contains($attachment->post_mime_type, 'video')) {

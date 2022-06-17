@@ -26,14 +26,14 @@
       </div>
       <div class="fr-mr-5w fr-mt-4w">
         <?php 
-          $categories = wp_get_post_categories($post->ID); 
-          if ($categories) {
-              foreach ($categories as $category) :
-                  $nameCategory = get_cat_name($category);
-                  ?>
-                  <span class="fr-tag fr-tag--sm fr-mr-1w fr-mb-1w" style="border-radius:4px"><?php echo $nameCategory; ?></span>
-              <?php endforeach;
-          }
+        $categories = wp_get_post_categories($post->ID); 
+        if ($categories) {
+            foreach ($categories as $category) :
+                $nameCategory = get_cat_name($category);
+                ?>
+                <span class="fr-tag fr-tag--sm fr-mr-1w fr-mb-1w" style="border-radius:4px"><?php echo $nameCategory; ?></span>
+            <?php endforeach;
+        }
         ?>
       </div>
       <div class="fr-mr-5w fr-mt-5w">

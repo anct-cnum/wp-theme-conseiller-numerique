@@ -19,9 +19,21 @@
         $tags = wp_get_post_tags($post->ID); 
         if ($tags) {
             foreach ($tags as $tag) : ?>
-                <span class="fr-tag fr-tag--sm fr-mr-2w"><?php echo $tag->slug; ?></span>
+                <span class="fr-tag fr-mr-2w"><?php echo $tag->slug; ?></span>
             <?php endforeach;
         }
+        ?>
+      </div>
+      <div class="fr-mr-5w fr-mt-4w">
+        <?php 
+          $categories = wp_get_post_categories($post->ID); 
+          if ($categories) {
+              foreach ($categories as $category) :
+                  $nameCategory = get_cat_name($category);
+                  ?>
+                  <span class="fr-tag fr-tag--sm fr-mr-1w fr-mb-1w" style="border-radius:4px"><?php echo $nameCategory; ?></span>
+              <?php endforeach;
+          }
         ?>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
@@ -32,7 +44,7 @@
     <div class="fr-col-xs-12 fr-col-md-6">
       <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail');  ?>
       <div style="position:relative;display:flex;height:100%">
-        <img src="<?php echo $image; ?>" style="max-width:100%" />
+        <img src="<?php echo $image; ?>" style="max-width:100%;z-index:-1" />
       </div>
     </div>
   </div>

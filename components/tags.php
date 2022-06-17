@@ -26,7 +26,7 @@
             $redirect = esc_url(get_tag_link($tag->term_id));
             $hrefTag = esc_url(get_tag_link($tag->term_id)) === $urlActive . '/' ? '' : 'href="' . $redirect . '"';
             ?>
-            <button class="fr-tag fr-tag--sm fr-mr-2w fr-mt-2w" aria-pressed="<?php echo $active; ?>">
+            <button class="fr-tag fr-mr-2w fr-mt-2w" aria-pressed="<?php echo $active; ?>">
               <a class="tag" <?php echo $hrefTag; ?> title="<?php echo esc_attr($tag->name); ?>"><?php echo esc_html($tag->name); ?></a>
             </button>
         <?php endforeach;

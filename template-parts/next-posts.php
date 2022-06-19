@@ -10,7 +10,7 @@
   <a href="<?php echo get_permalink($post->ID)?>" class="post-card">
     <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail'); ?>
     <div style="position:relative;display:flex">
-      <img src="<?php echo $image; ?>" style="width:100%;max-width:100%;height:205px" />
+      <img src="<?php echo $image; ?>" class="next-post-img" />
       <div style="position:absolute;left:20px;top:20px;display:inline-block">
         <?php 
         $categories = wp_get_post_categories($post->ID); 

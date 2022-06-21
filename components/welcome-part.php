@@ -6,7 +6,7 @@
 <div class="fr-container">
   <div class="fr-grid-row fr-mt-12w">
     <div class="fr-col-xs-12 fr-col-md-8 fr-pr-xs-1w fr-pr-md-6w">
-      <h2 class="fr-h2">Actualit&eacute;s du dispositif<br />Conseiller num&eacute;rique France Services</h1> 
+      <h1 class="fr-h1">Actualit&eacute;s du dispositif<br />Conseiller num&eacute;rique France Services</h1> 
       <p style="color:#929292">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
       </p>

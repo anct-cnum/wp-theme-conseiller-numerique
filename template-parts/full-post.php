@@ -12,7 +12,7 @@
         </a>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
-        <h3 class="fr-h3"><?php echo the_title() ?></h3>
+        <h1 class="fr-h1"><?php echo the_title() ?></h1>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
         <?php 

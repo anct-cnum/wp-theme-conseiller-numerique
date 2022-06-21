@@ -8,7 +8,7 @@
     <div class="fr-col-xs-12 fr-col-md-6">
       <div class="fr-mt-7w">
         <a class="fr-link fr-fi-arrow-left-line fr-link--icon-left fr-pb-2w" style="background-image:none;border-bottom: 1px solid #E5E5E5" href="<?php echo wp_get_referer(); ?>" style="font-weight: 500">
-          Retour à l&rsquo;index
+          Retour aux articles
         </a>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
@@ -19,7 +19,7 @@
         $tags = wp_get_post_tags($post->ID); 
         if ($tags) {
             foreach ($tags as $tag) : ?>
-                <span class="fr-tag fr-mr-2w"><?php echo $tag->slug; ?></span>
+                <span class="fr-tag fr-mr-2w"><?php echo $tag->name; ?></span>
             <?php endforeach;
         }
         ?>
@@ -61,7 +61,7 @@
     <div class="fr-col-xs-1 fr-col-md-2"></div>
     <div class="fr-col-xs-10 fr-col-md-8">
       <!-- Affichage du contenu sans le thumbnail get_the_content(); VS the_content() -->
-      <?php echo get_the_content(); ?>
+      <?php echo the_content(); ?>
       <a class="fr-link fr-fi-arrow-up-line fr-link--icon-up fr-pb-2w" style="background-image:none;border-bottom: 1px solid #E5E5E5" href="#" style="font-weight: 500">
         Haut de page
       </a>

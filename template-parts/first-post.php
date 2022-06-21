@@ -30,7 +30,7 @@
             $tags = wp_get_post_tags($post->ID); 
             if ($tags) {
                 foreach ($tags as $tag) : ?>
-                    <span class="fr-tag fr-tag--sm fr-mr-2w"><?php echo $tag->slug; ?></span>
+                    <span class="fr-tag fr-tag--sm fr-mr-2w"><?php echo $tag->name; ?></span>
                 <?php endforeach;
             }
             ?>

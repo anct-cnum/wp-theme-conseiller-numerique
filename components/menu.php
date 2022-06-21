@@ -23,7 +23,7 @@
           </div>
         </li>
         <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/" target="_self" aria-current="true">M&eacute;dias</a>
+            <a class="fr-nav__link" href="/" target="_self" aria-current="true">M&eacute;dia</a>
         </li>
         <li class="fr-nav__item">
             <a class="fr-nav__link" href="https://cartographie.conseiller-numerique.gouv.fr/" target="_self">Carte</a>

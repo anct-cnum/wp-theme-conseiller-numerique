@@ -6,7 +6,7 @@
 <?php if ($post->numPost % 3 === 0) : ?>
   <div class="fr-col-1"></div>
 <?php endif; ?>
-<div class="fr-col-xs-12 fr-col-md-3 fr-mb-8w next-post" <?php echo $post->anchor === true ? 'id="anchor-list"' : '' ?>>
+<div class="fr-col-xs-12 fr-col-md-3 fr-mb-12w next-post" <?php echo $post->anchor === true ? 'id="anchor-list"' : '' ?>>
   <a href="<?php echo get_permalink($post->ID)?>" class="post-card">
     <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail'); ?>
     <div style="position:relative;display:flex">

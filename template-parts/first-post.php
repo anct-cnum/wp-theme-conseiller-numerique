@@ -4,7 +4,7 @@
  */
 ?>
 <div class="fr-container" id="anchor-list">
-  <div class="fr-grid-row fr-my-12w" style="border:1px solid #E5E5E5">
+  <div class="fr-grid-row fr-mb-12w" style="border:1px solid #E5E5E5">
     <a href="<?php echo get_permalink($post->ID)?>" class="post-card-first">
       <div class="fr-col-xs-12 fr-col-lg-6">
         <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail');  ?>
@@ -39,7 +39,7 @@
           Le <?php the_time('d/m/Y'); ?>
           <?php echo getDurationFirstVideo($post->ID); ?>
         </div>
-        <div class="fr-mx-5w fr-my-5w">
+        <div class="fr-mx-5w fr-my-5w" style="overflow-wrap: anywhere">
           <h3 class="fr-h3"><?php echo $post->post_title; ?></h3>
           <br/>
           <?php echo substr(wp_strip_all_tags($post->post_content), 0, 250) . '...'; ?> <!-- on n'affiche ici que du texte et à 250 caractères on coupe -->

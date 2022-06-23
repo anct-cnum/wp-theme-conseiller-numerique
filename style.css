@@ -1,7 +1,7 @@
 /*
   Theme Name: conseiller-numerique
   Description: custom style
-  Version: 0.1
+  Version: 0.2
 */
 .logo-france-relance {
   height: 80px;
@@ -73,6 +73,10 @@
 
   .next-post-img {
     height: 100%;
+  }
+
+  .fr-quote {
+    background-image: none !important;
   }
 
 }

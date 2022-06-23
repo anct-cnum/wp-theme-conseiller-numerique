@@ -38,7 +38,7 @@
       Le <?php the_time('d/m/Y'); ?>
       <?php echo getDurationFirstVideo($post->ID); ?>
     </div>
-    <div class="fr-mx-2w fr-my-1w">
+    <div class="fr-mx-2w fr-my-1w" style="overflow-wrap: anywhere">
       <h2 class="fr-h3"><?php echo $post->post_title; ?></h3>
       <?php echo substr(wp_strip_all_tags($post->post_content), 0, 150) . '...'; ?> <!-- on n'affiche ici que du texte et à 150 caractères on coupe -->
     </div>

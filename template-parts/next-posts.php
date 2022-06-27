@@ -6,11 +6,11 @@
 <?php if ($post->numPost % 3 === 0) : ?>
   <div class="fr-col-1"></div>
 <?php endif; ?>
-<div class="fr-col-xs-12 fr-col-md-3 fr-mb-8w next-post">
+<div class="fr-col-xs-12 fr-col-md-3 fr-mb-12w next-post" <?php echo $post->anchor === true ? 'id="anchor-list"' : '' ?>>
   <a href="<?php echo get_permalink($post->ID)?>" class="post-card">
     <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail'); ?>
     <div style="position:relative;display:flex">
-      <img src="<?php echo $image; ?>" style="width:100%;max-width:100%;height:100%" />
+      <img src="<?php echo $image; ?>" class="next-post-img" />
       <div style="position:absolute;left:20px;top:20px;display:inline-block">
         <?php 
         $categories = wp_get_post_categories($post->ID); 
@@ -29,16 +29,16 @@
         $tags = wp_get_post_tags($post->ID); 
         if ($tags) {
             foreach ($tags as $tag) : ?>
-                <span class="fr-tag fr-tag--sm fr-mr-2w fr-mt-2w"><?php echo $tag->slug; ?></span>
+                <span class="fr-tag fr-tag--sm fr-mr-2w fr-mt-2w"><?php echo $tag->name; ?></span>
             <?php endforeach;
         }
         ?>
     </div>
     <div class="fr-mx-2w fr-mt-2w">
       Le <?php the_time('d/m/Y'); ?>
-      <?php echo getDurationFirstVideo($post_id); ?>
+      <?php echo getDurationFirstVideo($post->ID); ?>
     </div>
-    <div class="fr-mx-2w fr-my-1w">
+    <div class="fr-mx-2w fr-my-1w" style="overflow-wrap: anywhere">
       <h2 class="fr-h3"><?php echo $post->post_title; ?></h3>
       <?php echo substr(wp_strip_all_tags($post->post_content), 0, 150) . '...'; ?> <!-- on n'affiche ici que du texte et à 150 caractères on coupe -->
     </div>

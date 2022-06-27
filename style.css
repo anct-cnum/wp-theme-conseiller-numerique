@@ -1,7 +1,7 @@
 /*
   Theme Name: conseiller-numerique
   Description: custom style
-  Version: 1.0
+  Version: 0.2
 */
 .logo-france-relance {
   height: 80px;
@@ -29,12 +29,27 @@
 
 .post-card:hover,
 .post-card-first:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .next-post {
   border: 1px solid #e5e5e5;
   height: 600px;
+}
+
+.next-post-img {
+  width: 100%;
+  max-width: 100%;
+  height: 205px;
+}
+
+.anchor-arrow {
+  align-self: flex-end;
+  padding-bottom: 20px;
+}
+
+.anchor-arrow-responsive {
+  display: none;
 }
 
 @media (max-width: 992px) {
@@ -62,6 +77,24 @@
 
   .next-post {
     height: 100%;
+    width: 100%;
+  }
+
+  .next-post-img {
+    height: 100%;
+  }
+
+  .fr-quote {
+    background-image: none !important;
+  }
+
+  .anchor-arrow {
+    display: none;
+  }
+
+  .anchor-arrow-responsive {
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
 
@@ -98,6 +131,7 @@ div.aligncenter {
   display: flex;
   flex-grow: 1;
   background: linear-gradient(to bottom, #000091 50%, #0063cb 100%);
+  padding: 15px 0;
 }
 
 .help-part .first-part,

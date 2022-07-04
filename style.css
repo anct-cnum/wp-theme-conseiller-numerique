@@ -34,7 +34,7 @@
 
 .next-post {
   border: 1px solid #e5e5e5;
-  height: 630px;
+  height: 660px;
 }
 
 .next-post-img {
@@ -71,10 +71,6 @@
     display: block;
   }
 
-}
-
-@media (max-width: 768px) {
-
   .next-post {
     height: 100%;
     width: 100%;
@@ -83,6 +79,10 @@
   .next-post-img {
     height: 100%;
   }
+
+}
+
+@media (max-width: 768px) {
 
   .fr-quote {
     background-image: none !important;

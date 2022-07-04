@@ -15,16 +15,18 @@
         <h1 class="fr-h1"><?php echo the_title() ?></h1>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
+        <span style="font-size:14px;color:#929292;">Th&eacute;matique(s)&nbsp;:</span>
         <?php 
         $tags = wp_get_post_tags($post->ID); 
         if ($tags) {
             foreach ($tags as $tag) : ?>
-                <span class="fr-tag fr-mr-2w"><?php echo $tag->name; ?></span>
+                <span class="fr-tag fr-mr-2w fr-mb-1w"><?php echo $tag->name; ?></span>
             <?php endforeach;
         }
         ?>
       </div>
-      <div class="fr-mr-5w fr-mt-4w">
+      <div class="fr-mr-5w fr-mt-3w">
+      <span style="font-size:12px;color:#929292;">Type(s) de m&eacute;dia&nbsp;:</span>
         <?php 
         $categories = wp_get_post_categories($post->ID); 
         if ($categories) {
@@ -36,14 +38,14 @@
         }
         ?>
       </div>
-      <div class="fr-mr-5w fr-mt-5w">
+      <div class="fr-mr-5w fr-mt-3w" style="font-size:12px">
         Le <?php the_time('d/m/Y'); ?>
         <?php echo getDurationFirstVideo($post->ID); ?>
       </div>
     </div>
-    <div class="fr-col-xs-12 fr-col-md-6">
+    <div class="fr-col-xs-12 fr-col-md-6" style="align-self:center">
       <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail');  ?>
-      <div style="position:relative;display:flex;height:100%">
+      <div style="position:relative;display:flex;max-height:100%">
         <img src="<?php echo $image; ?>" style="max-width:100%;z-index:-1" />
       </div>
     </div>

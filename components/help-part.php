@@ -22,7 +22,7 @@
   </div>
   <div class="second-part">
     <div class="content-part">
-      <a href="https://cartographie.conseiller-numerique.gouv.fr" class="fr-btn fr-btn--secondary custom-btn">
+      <a href="https://carte.conseiller-numerique.gouv.fr" class="fr-btn fr-btn--secondary custom-btn">
         Trouver un conseiller num&eacute;rique pr&egrave;s de chez moi
       </a>
       <br />

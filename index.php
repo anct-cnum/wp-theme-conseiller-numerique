@@ -35,7 +35,7 @@ if (is_home() || is_tag() || is_category()) :
     </div>
     <?php
 else:
-    // Affichage de l'article en entien
+    // Affichage de l'article en entier
     while (have_posts()) {
         the_post();
         //Cas article : non utilisé pour le moment (laissé sans template)

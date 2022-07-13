@@ -23,15 +23,15 @@ Important : le nom de la dépendance correspond au "name" du composer.json du th
 Important : le type doit correspondre au "type" du composer.json du thème sinon par défaut, le thème sera installé dans le dossier vendors
 
 Rappel: pour créer un nouveau tag avec git :
-> git tag -a XXX -m "tag de test" avec XXX une version (par exemple 1.0.0)
-> git push --tags
+> git tag -a XXX -m "tag de test" avec XXX une version (par exemple 1.0.0)<br/>
+> git push --tags<br/>
 
 ## Lint
 
 Une fois le thème récupéré, un `npm install` et un `composer install` permettra d'installer les dépendances dev pour eslint : 
-> Composer lint (pour phpcs).
-Note : Le fichier phpcs.xml permet de personnaliser certaines directives
-> npm lint:css (pour eslint sur style.css)
+> - Composer lint (pour phpcs).<br/>
+>   Note : Le fichier phpcs.xml permet de personnaliser certaines directives<br/>
+> - npm lint:css (pour eslint sur style.css)<br/>
 
 ## Composition de la partie front 
 
@@ -56,14 +56,14 @@ Important : le numéro de version qui se trouve en haut dans la partie commentai
 - Les dossiers/fichiers relatifs au DSFR (fonts / icons / utility / dsfr.min.css / dsfr.module.min.js / dsfr.nomodule.min.js)
 - Dossier template-parts : les templates pour l'article mis en avant, les autres articles et l'affichage d'un article en entier
 - Dossier components : 
-> consts.php : déclaration des constantes utilisées.
-A noter: il y a une constante qui prend la variable d'environnement configurée ; 'GOOGLE_API_KEY'. Cette clé permet de récupérer la durée d'une vidéo youtube si un lien est inséré dans un article
-> categories.php : affiche la liste des filtres par type de média + filtre "Tous les articles" qui est le filtre par défaut
-> tags.php : affiche la liste des filtres par thématique
-> pagination.php : affichage de la pagination en modifiant/ajoutant les classes du DSFR à la pagination de Wordpress gérée nativement
-> help.php : encart fixe de redirection sur le site vitrine CnFS ou sur la cartographie CnFS
-> menu.php : affichage du menu inclus dans le header
-> welcome-part : Partie de bienvenue composé notamment des tags.php & categories.php
+> - consts.php : déclaration des constantes utilisées.<br/>
+A noter: il y a une constante qui prend la variable d'environnement configurée ; 'GOOGLE_API_KEY'. Cette clé permet de récupérer la durée d'une vidéo youtube si un lien est inséré dans un article<br/>
+> - categories.php : affiche la liste des filtres par type de média + filtre "Tous les articles" qui est le filtre par défaut<br/>
+> - tags.php : affiche la liste des filtres par thématique<br/>
+> - pagination.php : affichage de la pagination en modifiant/ajoutant les classes du DSFR à la pagination de Wordpress gérée nativement<br/>
+> - help.php : encart fixe de redirection sur le site vitrine CnFS ou sur la cartographie CnFS<br/>
+> - menu.php : affichage du menu inclus dans le header<br/>
+> - welcome-part : Partie de bienvenue composé notamment des tags.php & categories.php<br/>
 
 ## Evolutions possibles à venir 
 

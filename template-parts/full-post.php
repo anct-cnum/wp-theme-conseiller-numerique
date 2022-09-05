@@ -45,8 +45,10 @@
     </div>
     <div class="fr-col-xs-12 fr-col-md-6" style="align-self:center">
       <?php $image = get_the_post_thumbnail_url($post->ID, 'single-post-thumbnail');  ?>
-      <div style="position:relative;display:flex;max-height:100%">
+      <?php $legend = get_the_post_thumbnail_caption($post->ID); ?>
+      <div style="position:relative;display:flex;flex-direction:column;max-height:100%">
         <img src="<?php echo $image; ?>" style="max-width:100%;z-index:-1" />
+        <span style="align-self:center"><b><em><?php echo $legend ?></em></b></span>
       </div>
     </div>
   </div>

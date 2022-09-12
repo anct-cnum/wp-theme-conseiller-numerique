@@ -61,7 +61,7 @@
       <div class="fr-footer__partners-logos">
         <div class="fr-footer__partners-main">
           <a class="footer__partners-link" href="https://agence-cohesion-territoires.gouv.fr">
-            <img class="fr-footer__logo" style="height: 4.625rem" src="<?php bloginfo('template_url'); ?>/logos/logo-anct-min.svg" alt="Agence Nationale de la Coh&eacute;sion des Territoires" />
+            <img class="fr-footer__logo" style="height: 4.5rem" src="<?php bloginfo('template_url'); ?>/logos/logo-anct-min.svg" alt="Agence Nationale de la Coh&eacute;sion des Territoires" />
           </a>
         </div>
         <div class="fr-footer__partners-sub" style="order: 1">

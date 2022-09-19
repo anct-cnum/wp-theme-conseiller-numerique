@@ -92,7 +92,7 @@
         <li class="fr-footer__bottom-item">
           <a href="https://cdn.conseiller-numerique.gouv.fr/CGU-Donn%C3%A9es_personnellesConseiller_Num%C3%A9rique.pdf"
             class="fr-footer__bottom-link"
-            title="Don&eacute;es personnelles"
+            title="Donn&eacute;es personnelles"
             target="_blank" rel="noopener noreferrer">Donn&eacute;es personnelles</a>
         </li>
       </ul>

@@ -6,14 +6,9 @@
 <footer class="fr-footer" role="contentinfo" id="footer">
   <div class="fr-container">
     <div class="fr-footer__body fr-footer__body--operator">
-      <div class="fr-footer__brand fr-enlarge-link">
-        <p class="fr-logo" title="R&eacute;publique Française">
-          r&eacute;publique
-          <br />
-          fran&ccedil;aise
-        </p>
+      <div class="fr-footer__brand fr-enlarge-link footerBrandCustom">
         <a class="fr-footer__brand-link" href="https://www.conseiller-numerique.gouv.fr" title="Retour à l&rsquo;accueil">
-          <img src="<?php bloginfo('template_url'); ?>/logos/logo-france-relance-alt-min.svg" alt="Logo France Relance" class="logo-france-relance fr-footer__logo" />
+          <img src="<?php bloginfo('template_url'); ?>/logos/logo-france-relance-gouv-ue.png" alt="Logo France Relance" class="logo-france-relance fr-footer__logo" />
         </a>
       </div>
       <div class="fr-footer__content footer-content-custom">

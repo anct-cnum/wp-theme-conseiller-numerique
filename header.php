@@ -24,7 +24,7 @@
           <div class="fr-header__body-row">
             <div class="fr-header__brand fr-enlarge-link">
               <div class="fr-header__brand-top">
-                <div class="fr-header__logo">
+                <div class="fr-header__logo" style="padding-right:0.7rem;margin-right:0">
                   <a href="https://www.conseiller-numerique.gouv.fr" title="Accueil - Conseiller num&eacute;rique France services">
                       <p class="fr-logo">
                           R&eacute;publique
@@ -33,7 +33,7 @@
                       </p>
                   </a>
                 </div>
-                <div class="fr-header__operator">
+                <div class="fr-header__operator" style="padding-left:0">
                   <img src="<?php bloginfo('template_url'); ?>/logos/logo-rf-conseiller-numerique-min.svg" class="fr-responsive-img" alt="Logo Conseiller num&eacute;rique" />
                 </div>
                 <div class="fr-header__navbar">
@@ -47,6 +47,15 @@
               <div class="fr-header__tools-links">
                 <ul class="fr-links-group">
                   <li>
+                    <a
+                      title="Documenth&egrave;que"
+                      class="fr-link fr-icon-file-line"
+                      href="https://www.conseiller-numerique.gouv.fr/documentheque"
+                      target="_self">
+                        Documenth&egrave;que
+                    </a>
+                  </li>
+                  <li style="padding-left:5px">
                     <a
                       title="Aide"
                       class="fr-link fr-icon-question-answer-line"

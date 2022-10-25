@@ -29,6 +29,11 @@
             <a class="fr-nav__link" href="https://carte.conseiller-numerique.gouv.fr/" target="_self">Carte</a>
         </li>
         <li class="fr-nav__item">
+            <a class="fr-nav__link"
+                href="https://metabase.conseiller-numerique.gouv.fr/public/dashboard/446208c4-cae2-4c0c-be19-44cb14ce7d06"
+                target="_blank" rel="noopener noreferrer">Statistiques</a>
+        </li>
+        <li class="fr-nav__item">
             <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-774">Recrutement</button>
             <div class="fr-collapse fr-menu" id="menu-774">
                 <ul class="fr-menu__list">

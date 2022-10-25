@@ -6,7 +6,7 @@
 <footer class="fr-footer" role="contentinfo" id="footer">
   <div class="fr-container">
     <div class="fr-footer__body fr-footer__body--operator">
-      <div class="fr-footer__brand fr-enlarge-link footerBrandCustom">
+      <div class="fr-footer__brand fr-enlarge-link footer-brand-custom">
         <a class="fr-footer__brand-link" href="https://www.conseiller-numerique.gouv.fr" title="Retour à l&rsquo;accueil">
           <img src="<?php bloginfo('template_url'); ?>/logos/logo-france-relance-gouv-ue.png" alt="Logo France Relance" class="logo-france-relance fr-footer__logo" />
         </a>

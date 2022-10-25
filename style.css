@@ -3,11 +3,11 @@
   Description: custom style
   Version: 1.2
 */
-.footerBrandCustom {
+.footer-brand-custom {
   flex-basis: 50%;
 }
 
-.footerBrandCustom:hover, .footerBrandCustom:active, .fr-footer__brand-link:active {
+.footer-brand-custom:hover, .footer-brand-custom:active, .fr-footer__brand-link:active {
   background-color: unset;
 }
 
@@ -81,7 +81,7 @@
     display: flex;
   }
 
-  .footerListCustom li:first-child {
+  .footer-list-custom li:first-child {
     margin-top: 0.5rem;
   }
 

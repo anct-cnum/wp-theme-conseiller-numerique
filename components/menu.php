@@ -17,7 +17,7 @@
                       <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/accueil/#ancre-themes" target="_self">&bull;&nbsp;&Agrave; propos des conseillers num&eacute;riques</a>
                   </li>
                   <li>
-                      <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/accueil/#ancre-statistiques" target="_self">&bull;&nbsp;Le disposifif en chiffres</a>
+                      <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/accueil/#ancre-statistiques" target="_self">&bull;&nbsp;Le dispositif en chiffres</a>
                   </li>
               </ul>
           </div>

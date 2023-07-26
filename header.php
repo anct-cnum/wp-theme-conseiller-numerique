@@ -48,6 +48,17 @@
                 <ul class="fr-links-group">
                   <li>
                     <a
+                      title="Renouvellement conventions"
+                      class="fr-link fr-icon-star-fill"
+                      style="color:#ce0500"
+                      href="https://aide.conseiller-numerique.gouv.fr/fr/article/renouvellement-informations-generales-1ci8cxv/"
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        Renouvellement conventions
+                    </a>
+                  </li>
+                  <li style="padding-left:5px">
+                    <a
                       title="Documenth&egrave;que"
                       class="fr-link fr-icon-file-line"
                       href="https://www.conseiller-numerique.gouv.fr/documentheque"

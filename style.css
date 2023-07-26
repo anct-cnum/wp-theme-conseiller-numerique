@@ -1,8 +1,27 @@
 /*
   Theme Name: conseiller-numerique
   Description: custom style
-  Version: 1.2
+  Version: 1.3
 */
+
+/* START A SUPPRIMER AVEC LA MAJ DSFR */
+.fr-header .fr-links-group {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  margin-left: -1rem;
+}
+
+.fr-header .fr-links-group .fr-link[class*=" fr-icon-"] {
+  font-weight: unset;
+}
+
+.fr-header .fr-links-group>.fr-link:not(:last-child):after,.fr-header .fr-links-group>:not(:last-child)>.fr-link:after {
+  display: none;
+}
+/* END A SUPPRIMER AVEC LA MAJ DSFR */
+
 .footer-brand-custom {
   flex-basis: 50%;
 }

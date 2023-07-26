@@ -65,6 +65,9 @@
             </ul>
           </div>
         </li>
+        <li class="fr-nav__item">
+            <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/coordination-territoriale" target="_self">Coordination territoriale</a>
+        </li>
       </ul>
     </nav>
   </div>

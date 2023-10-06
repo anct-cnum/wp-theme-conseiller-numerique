@@ -66,7 +66,17 @@
           </div>
         </li>
         <li class="fr-nav__item">
-            <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/coordination-territoriale" target="_self">Coordination territoriale</a>
+          <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-775">Coordination territoriale</button>
+          <div class="fr-collapse fr-menu" id="menu-775">
+            <ul class="fr-menu__list">
+                <li>
+                    <a class="fr-nav__link" href="https://app.conseiller-numerique.gouv.fr/candidature/structure/new" target="_self">Recrutement d&rsquo;un coordinateur</a>
+                </li>
+                <li>
+                    <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/coordination-territoriale" target="_self">Les missions et la cartographie des coordinateurs</a>
+                </li>
+            </ul>
+          </div>
         </li>
       </ul>
     </nav>

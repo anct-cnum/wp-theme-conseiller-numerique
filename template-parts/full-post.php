@@ -12,7 +12,7 @@
         </a>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
-        <h1 class="fr-h1"><?php echo the_title() ?></h1>
+        <h1 class="fr-h1"><?php the_title() ?></h1>
       </div>
       <div class="fr-mr-5w fr-mt-5w">
         <span style="font-size:14px;color:#929292;">Th&eacute;matique(s)&nbsp;:</span>

@@ -68,7 +68,7 @@
         <li class="fr-nav__item">
           <button class="fr-nav__btn" aria-expanded="false" aria-controls="menu-775">Coordination territoriale</button>
           <div class="fr-collapse fr-menu" id="menu-775">
-            <ul class="fr-menu__list">
+            <ul class="fr-menu__list" style="width: 23rem">
                 <li>
                     <a class="fr-nav__link" href="https://app.conseiller-numerique.gouv.fr/candidature/structure/new" target="_self">Recrutement d&rsquo;un coordinateur</a>
                 </li>

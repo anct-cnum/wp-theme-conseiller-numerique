@@ -55,18 +55,9 @@
       </h4>
       <div class="fr-footer__partners-logos">
         <div class="fr-footer__partners-main">
-          <a class="footer__partners-link" href="https://agence-cohesion-territoires.gouv.fr">
-            <img class="fr-footer__logo" style="height: 4.5rem" src="<?php bloginfo('template_url'); ?>/logos/logo-anct-min.svg" alt="Agence Nationale de la Coh&eacute;sion des Territoires" />
+          <a class="footer__partners-link" href="https://societenumerique.gouv.fr/fr/">
+            <img class="fr-footer__logo" style="height: 72px" src="<?php bloginfo('template_url'); ?>/logos/logo-sonum-anct-min.svg" alt="Agence Nationale de la Coh&eacute;sion des Territoires - Soci&eacute;t&eacute; num&eacute;rique" />
           </a>
-        </div>
-        <div class="fr-footer__partners-sub" style="order: 1">
-          <ul style="align-items: center">
-            <li style="padding-top: 5px">
-              <a class="fr-footer__partners-link" href="https://societenumerique.gouv.fr">
-                <img class="fr-footer__logo" style="height: 4rem" src="<?php bloginfo('template_url'); ?>/logos/logo-sonum-min.svg" alt="Soci&eacute;t&eacute; Num&eacute;rique" />
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </div>

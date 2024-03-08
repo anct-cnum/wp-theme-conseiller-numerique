@@ -61,6 +61,10 @@
   margin-left: -0.3rem;
 }
 
+.footer-content-custom li > a:hover {
+  color: #000074 !important;
+}
+
 .post-card-first {
   display: flex;
   background-image: none;

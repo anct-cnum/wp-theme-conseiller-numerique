@@ -25,7 +25,7 @@
             <div class="fr-header__brand fr-enlarge-link">
               <div class="fr-header__brand-top">
                 <div class="fr-header__logo" style="padding-right:0;margin-right:0">
-                  <a href="https://www.conseiller-numerique.gouv.fr" title="Accueil - Conseiller num&eacute;rique France services">
+                  <a href="https://www.conseiller-numerique.gouv.fr" title="Accueil - Conseiller num&eacute;rique">
                       <p class="fr-logo">
                           R&eacute;publique
                         <br />

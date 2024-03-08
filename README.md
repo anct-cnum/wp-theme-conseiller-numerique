@@ -1,4 +1,4 @@
-# Theme Wordpress avec le DSFR pour Conseiller numérique France Services
+# Theme Wordpress avec le DSFR pour Conseiller numérique
 
 ## Description
 

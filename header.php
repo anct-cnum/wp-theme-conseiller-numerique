@@ -8,8 +8,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <?php wp_register_style("dsfr", get_template_directory_uri() . "/dsfr.min.css", '', '1.5.1'); ?>
-    <?php wp_register_style("utilities", get_template_directory_uri() . "/utility/utility.min.css", '', '1.5.1'); ?>
+    <?php wp_register_style("dsfr", get_template_directory_uri() . "/dsfr.min.css", '', '1.11.1'); ?>
+    <?php wp_register_style("utilities", get_template_directory_uri() . "/utility/utility.min.css", '', '1.11.1'); ?>
     <?php wp_register_style("custom", get_template_directory_uri() . "/style.css", '', THEME_VERSION); ?>
     <meta name="theme-color" content="#000091">
     <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png"><!-- 180×180 -->

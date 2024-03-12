@@ -11,7 +11,7 @@
         Rencontres au c&oelig;ur du num&eacute;rique inclusif
       </p>
       <p style="font-size:12px;line-height:20px;color:#929292">
-        &laquo;&nbsp;L&rsquo;inclusion num&eacute;rique s&rsquo;impose aujourd&rsquo;hui comme une priorit&eacute; des pouvoirs publics, afin de r&eacute;duire la fracture num&eacute;rique aupr&egrave;s de la population. Les conseillers num&eacute;riques France Services sont une r&eacute;elle opportunit&eacute; pour les usagers qui souhaitent devenir autonomes sur le num&eacute;rique du quotidien. Les chemins du num&eacute;riques explorent les diff&eacute;rentes incarnations de cette nouvelle offre de service public, qui prend vie gr&acirc;ce au dispositif Conseiller num&eacute;rique France Services.&nbsp;&raquo;
+        &laquo;&nbsp;L&rsquo;inclusion num&eacute;rique s&rsquo;impose aujourd&rsquo;hui comme une priorit&eacute; des pouvoirs publics, afin de r&eacute;duire la fracture num&eacute;rique aupr&egrave;s de la population. Les conseillers num&eacute;riques sont une r&eacute;elle opportunit&eacute; pour les usagers qui souhaitent devenir autonomes sur le num&eacute;rique du quotidien. Les chemins du num&eacute;riques explorent les diff&eacute;rentes incarnations de cette nouvelle offre de service public, qui prend vie gr&acirc;ce au dispositif Conseiller num&eacute;rique.&nbsp;&raquo;
         <br /><br />
         Pierre-Louis Rolle, Directeur Strat&eacute;gie Innovation &agrave; la Direction G&eacute;n&eacute;rale D&eacute;l&eacute;gu&eacute;e au Num&eacute;rique de l&rsquo;ANCT
       </p>

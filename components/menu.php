@@ -78,6 +78,9 @@
             </ul>
           </div>
         </li>
+        <li class="fr-nav__item">
+            <a class="fr-nav__link" href="https://conseiller-numerique.gouv.fr/formation" target="_self">Formation</a>
+        </li>
       </ul>
     </nav>
   </div>

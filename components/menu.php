@@ -57,10 +57,13 @@
                     <a class="fr-nav__link" href="https://candidat.conseiller-numerique.gouv.fr/login" target="_self">&bull;&nbsp;Espace candidat</a>
                 </li>
                 <li>
-                    <a class="fr-nav__link" href="https://admin.conseiller-numerique.gouv.fr/login?role=structure" target="_self">&bull;&nbsp;Espace structure</a>
+                    <a class="fr-nav__link" href="https://pilotage.conseiller-numerique.gouv.fr" target="_self">&bull;&nbsp;Tableau de pilotage - structure</a>
                 </li>
                 <li>
-                    <a class="fr-nav__link" href="https://admin.conseiller-numerique.gouv.fr/login?role=prefet" target="_self">&bull;&nbsp;Espace pr&eacute;fecture</a>
+                    <a class="fr-nav__link" href="https://pilotage.conseiller-numerique.gouv.fr" target="_self">&bull;&nbsp;Tableau de pilotage - pr&eacute;fecture</a>
+                </li>
+                <li>
+                    <a class="fr-nav__link" href="https://pilotage.conseiller-numerique.gouv.fr" target="_self">&bull;&nbsp;Tableau de pilotage - pr&eacute;fecture</a>
                 </li>
             </ul>
           </div>

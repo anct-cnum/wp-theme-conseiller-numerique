@@ -12,7 +12,7 @@
         </a>
       </div>
       <div class="fr-footer__content footer-content-custom">
-        <ul class="fr-footer__content-list footer-list-custom fr-mb-2w">
+        <ul class="fr-footer__content-list footer-list-custom fr-mb-1w">
           <li class="fr-footer__content-item">
             <a href="https://www.conseiller-numerique.gouv.fr/kit-communication" title="kit communication" class="fr-footer__content-link">
               Kit de communication
@@ -56,7 +56,7 @@
       <div class="fr-footer__partners-logos">
         <div class="fr-footer__partners-main">
           <a class="footer__partners-link" href="https://societenumerique.gouv.fr/fr/">
-            <img class="fr-footer__logo" style="height: 72px" src="<?php bloginfo('template_url'); ?>/logos/logo-sonum-anct-min.svg" alt="Agence Nationale de la Coh&eacute;sion des Territoires - Soci&eacute;t&eacute; num&eacute;rique" />
+            <img class="fr-footer__logo" style="height: 65px; box-shadow:none;" src="<?php bloginfo('template_url'); ?>/logos/logo-sonum-anct-min.svg" alt="Agence Nationale de la Coh&eacute;sion des Territoires - Soci&eacute;t&eacute; num&eacute;rique" />
           </a>
         </div>
       </div>
@@ -84,7 +84,7 @@
       </ul>
       <div class="fr-footer__bottom-copy">
         <p>
-          Sauf mention contraire, tous les contenus de ce site sont sous&nbsp;
+          Sauf mention contraire, tous les contenus de ce site sont sous
           <a
             href="https://github.com/etalab/licence-ouverte/blob/master/LO.md"
             target="_blank" rel="noopener noreferrer"

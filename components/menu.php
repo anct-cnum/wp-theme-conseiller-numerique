@@ -78,6 +78,9 @@
                 <li>
                     <a class="fr-nav__link" href="https://www.conseiller-numerique.gouv.fr/coordination-territoriale" target="_self">Les missions et la cartographie des coordinateurs</a>
                 </li>
+                <li>
+                    <a class="fr-nav__link" href="https://www.data.gouv.fr/fr/datasets/conseiller-numerique-liste-des-structures-validees-par-le-comite-de-selection-conum-et-conum-coordinateur/" target="_blank" rel="noopener noreferrer">Liste des structures laur&eacute;ates</a>
+                </li>
             </ul>
           </div>
         </li>
